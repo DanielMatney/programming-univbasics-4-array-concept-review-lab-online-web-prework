@@ -16,7 +16,6 @@ end
 
 def find_min_value(array)
   min = array[0]
-  p min
   counter = 0
   array.length.times {
     if min > array[counter]
