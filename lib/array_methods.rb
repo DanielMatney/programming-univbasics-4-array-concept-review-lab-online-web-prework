@@ -5,7 +5,7 @@ end
 def find_max_value(array)
   max = 0
   number = 0
-  length = array.length + 1
+  length = array.length
   length.times do
     if max < array[number]
       max = array[number]
