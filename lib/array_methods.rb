@@ -11,6 +11,7 @@ def find_max_value(array)
     max = array[number]
     number += 1
     end
+    p max
 end
 
 def find_min_value(array)
