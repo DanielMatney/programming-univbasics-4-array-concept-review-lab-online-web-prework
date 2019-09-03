@@ -9,6 +9,7 @@ def find_max_value(array)
     if max < array[counter]
     max = array[counter]
     end
+    p max
     counter += 1
     
   }
