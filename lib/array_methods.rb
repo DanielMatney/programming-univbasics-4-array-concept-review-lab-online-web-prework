@@ -6,12 +6,11 @@ def find_max_value(array)
   max = 0
   number = 0
   length = array.length
-  length.times do
+  length.times 
     if max < array[number]
-      max = array[number]
+    max = array[number]
+    number += 1
     end
-    number +=1
-  end
 end
 
 def find_min_value(array)
