@@ -7,7 +7,6 @@ def find_max_value(array)
   number = 0
   length = array.length + 1
   length.times do
-    p max
     if max < array[number]
       max = array[number]
     end
