@@ -4,12 +4,11 @@ end
 
 def find_max_value(array)
   max = 0
-  number = 0
-  length = array.length
-  length.times 
-    if max < array[number]
-    max = array[number]
-    number += 1
+  counter = 0
+  array.length.times 
+    if max < array[counter]
+    max = array[counter]
+    counter += 1
     end
     p max
 end
